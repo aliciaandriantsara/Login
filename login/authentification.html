@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="authentification.css"/>
+        <title>Login</title>
+    </head>
+    <body>
+        <h1>
+            Login
+        </h1>
+        <center>
+            <form action="authentification.cgi" method="get">
+                Username : <input type="text" name="user_name"/>
+                <br/>
+                Password : <input type="password" name="user_password"/>
+                <input type="submit" value="Login"/>
+            </form>
+        </center>
+        <h1>
+            Create a new count
+        </h1>
+        <form action="new_account.cgi" method="post">
+            <input type="submit" value="Newaccount"/>
+        </form>
+    </body>
+</html>

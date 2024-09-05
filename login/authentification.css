@@ -1,0 +1,63 @@
+body
+{
+    
+    height: 1000px;
+    width: 1000px;
+    /*    background-image: -webkit-radial-gradient( center, 200px 50px,rgb(92, 10, 146),rgb(22, 22, 148) ,rgb(5, 5, 128));
+    background-image: -moz-radial-gradient( center, 200px 50px,rgb(92, 10, 146),rgb(22, 22, 148) ,rgb(5, 5, 128));
+    background-image:-o-radial-gradient( center, 200px 50px,rgb(92, 10, 146),rgb(22, 22, 148) ,rgb(5, 5, 128));
+*/
+    background-image: -webkit-radial-gradient( center, 200px 50px,rgb(92, 10, 146),rgb(17, 17, 103) ,rgb(6, 6, 31));
+    background-image: -moz-radial-gradient(center,200px 50px,rgb(92, 10, 146),rgb(17, 17, 103) , rgb(6, 6, 31));
+    background-image:-o-radial-gradient( center,200px 50px,rgb(92, 10, 146),rgb(17, 17, 102) ,rgb(6, 6, 31));
+    /* background-color: rgb(191, 228, 228); */ 
+    /* background:  */
+    /* url(IMG_1047.JPG) fixed no-repeat top left, */
+    /* url(../IMG_E1836.JPG) fixed no-repeat top right; */
+    /* background-image: url(IMG_1047.JPG); */
+    /* background-repeat: no-repeat; */
+    /* background-attachment:fixed; */
+}
+
+p
+{
+    color: aquamarine;
+    font-size: 20px;
+    text-align: center;
+    line-height: 15px;
+
+}
+
+
+h1
+{
+    color: chocolate;
+    text-align: center;
+
+}
+
+form
+{
+    color: aquamarine;
+    font-size: 20px;
+    text-align: center;
+    line-height: 15px;
+
+}
+
+input[type = "submit"]
+{
+    color: rgb(183, 117, 183);
+
+}
+
+input[value = "Logout"]
+{
+    color: black;
+}
+
+input[type = "text"]
+{
+    color: darkgray;
+
+}

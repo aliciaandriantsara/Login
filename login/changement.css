@@ -1,0 +1,48 @@
+body
+{
+    height: 1000px;
+    width: 1000px;
+    background-image: -webkit-radial-gradient( center, 200px 50px,rgb(92, 10, 146),rgb(17, 17, 103) ,rgb(6, 6, 31));
+    background-image: -moz-radial-gradient(center,200px 50px,rgb(92, 10, 146),rgb(17, 17, 103) , rgb(6, 6, 31));
+    background-image:-o-radial-gradient( center,200px 50px,rgb(92, 10, 146),rgb(17, 17, 102) ,rgb(6, 6, 31));
+}
+
+h1
+{
+    color: aquamarine;
+    font-size: 20px;
+    text-align: center;
+}
+
+table
+{
+    border-color: rgb(241, 129, 217);
+    border-collapse: collapse;
+    color: rgb(150, 150, 131);
+}
+
+td
+{
+    border: 1px solid rgb;
+    color: antiquewhite;
+}
+
+input
+{
+    color: rgb(19, 32, 210);
+}
+
+input[value = "Modifier"]
+{
+    color: darkgray;
+}
+
+input[value = "Supprimer"]
+{
+    color: rgb(183, 117, 183);
+}
+
+form
+{
+    color: chocolate;
+}

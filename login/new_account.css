@@ -1,0 +1,39 @@
+body
+{
+    
+    height: 1000px;
+    width: 1000px;
+    background-image: -webkit-radial-gradient( center, 200px 50px,rgb(92, 10, 146),rgb(17, 17, 103) ,rgb(6, 6, 31));
+    background-image: -moz-radial-gradient(center,200px 50px,rgb(92, 10, 146),rgb(17, 17, 103) , rgb(6, 6, 31));
+    background-image:-o-radial-gradient( center,200px 50px,rgb(92, 10, 146),rgb(17, 17, 102) ,rgb(6, 6, 31));
+}
+
+form
+{
+    color: rgb(246, 160, 98);
+    font-size: 20px;
+    text-align: center;
+    line-height: 15px;
+
+}
+
+h1
+{
+    color: chocolate;
+    text-align: center;
+
+}
+
+input[type = "submit"]
+{
+    color: rgb(183, 117, 183);
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px; 
+}
+
+input
+{
+    color: darkgray;
+
+}

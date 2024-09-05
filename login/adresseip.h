@@ -1,0 +1,15 @@
+void type_of_adress(int verification, char *tab_ip_1,  char *tab_ip_2, char *tab_ip_3, char *tab_ip_4);
+int testing_adresss(char *tab_ip_1, char *tab_ip_2, char *tab_ip_3, char *tab_ip_4);
+void head(char *title);
+void foot_of_body();
+void head_of_body();
+int control_error(char *tab_ip_1, char *tab_ip_2, char *tab_ip_3, char *tab_ip_4);
+int chainecarac(char* recovery_ip);
+void main_main(char *recovery_ip, int chaine);
+void last_test(int number_of_character);
+int* default_msr(int* a);
+int machine_number(int *adresse_reseau, int *adresse_broadcast);
+int *broadcast_adresse(int *adresse_reseau);
+int *reseau_adresse(int* msr_default, int* a);
+int* changing_type(char* tab_ip_1, char* tab_ip_2, char* tab_ip_3, char* tab_ip_4);
+int verification_verification(char* tab_ip_1, char* tab_ip_2, char* tab_ip_3, char* tab_ip_4);
